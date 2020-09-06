@@ -1,0 +1,45 @@
+body {
+    font-family: 'Lexend Peta', sans-serif;
+}
+nav ul li{
+    display: inline;
+    margin-left: 1.2%;
+}
+header {
+    background-color:#fff;
+    height: 10%;
+    width: 100%;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1% 0 1% 1%;
+}
+nav {
+    position: absolute;
+    left: 60%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    width: 40%;
+}
+.logo {
+    fill: #000;
+    position: absolute;
+}
+.pedir-button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    background-color: #fff;
+    height: 50px;
+    width: 90px;
+    padding: 0 15px;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: 0.5s
+}
+.pedir-button:hover {
+    background-color: #000;
+    color: #fff;
+}
