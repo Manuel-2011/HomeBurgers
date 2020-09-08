@@ -3,6 +3,7 @@
     <head>
         <link href="../css/base.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/08a9335605.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -21,7 +22,11 @@
             </nav>
         </header>
         <div class="fondo_principal">
-            <img src="../img/index/hamburguesas-fondo.jpg">
+            <video width=100vw autoplay loop>
+                <source src="../video/hero-home.mp4" type="video/mp4">
+                
+                Your browser does not support the video tag.
+            </video>
         </div>
         <div class="scroll-text">
             SCROLL PARA CONOCER MAS
@@ -31,10 +36,40 @@
             <h3 id="subtitulo_sobre_imagen">Pedidos para recoger y domicilios en linea.</h3>
             <a id="link_sobre_imagen">PIDE ACA</a>
         </div>
+        <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=573114461111" target="blank">
+                <div id="whatsapp">
+                    <span id="whatsapp-icon"><i class="fab fa-whatsapp fa-2x"></i></span>
+                </div></a>
+        </div>
         <div class="carrusel">
             <img src="https://homeburgers.com/uploads/sliderhome/46422c2a70644455a7dc1e78d9397fb8/Sin_titulo-1_Mesa_de_trabajo_1_copia_2.jpg">
             <img src="https://homeburgers.com/uploads/sliderhome/6fbdfc2564064c49a5707fe4ec2bd48e/Sin_titulo-1_Mesa_de_trabajo_1_copia.jpg">
             <img src="https://homeburgers.com/uploads/sliderhome/ad0d491351244cc18de3b7afe21d9192/Sin_titulo-1_Mesa_de_trabajo_1_copia_3.jpg">
         </div>
+        <div class="flecha-izquierda transition-to-black">
+            <span class="fecha-iz"><i class="fas fa-chevron-left"></i></span>
+        </div>
+        <div class="flecha-derecha transition-to-black">
+            <span class="fecha-de"><i class="fas fa-chevron-right"></i></span>
+        </div>
+        <div class="texto-en-imagen transition-to-black">
+            Ver mas
+        </div>
+        <div id="ti-centro" class="texto-en-imagen transition-to-black">
+            Ver mas
+        </div>
+        <div id="ti-derecha" class="texto-en-imagen transition-to-black">
+            Ver mas
+        </div>
+        <div id="ubicaciones">
+            <img src="https://homeburgers.com/static/img/location-home-desktop-min.5f05e894c06e.jpg">
+            <h1 class="titulo-en-imagen" id="ubicaciones-header">CONOCE NUESTRAS UBICACIONES</h1>
+        </div>
+        <div  class="texto-en-imagen ti-ubicaciones transition-to-black">
+            Encuentra tu Home mas cercano
+        </div>
+        <a href="" class="link_sobre_imagen" id="link-ubicaciones">VER TODAS LAS UBICACIONES</a>
+        
     </body>
 </html>

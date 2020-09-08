@@ -18,6 +18,7 @@ header {
     top: 0;
     left: 0;
     padding: 1% 0 1% 1%;
+    z-index: 100;
 }
 nav {
     position: absolute;
@@ -50,13 +51,15 @@ nav {
     color: #fff;
 }
 .fondo_principal {
-    width: 100vw;
-    left: -10px;
-}
-.fondo_principal img {
-    top: -100px;
     width: 100%;
-    height: 100vh;
+    margin-left: 0px;
+}
+.fondo_principal video {
+    position: relative;
+    top: -150px;
+    width: 100vw;
+    left:-10px;
+    z-index: -2;
 }
 .scroll-text {
     position: absolute;
@@ -87,6 +90,145 @@ nav {
     text-decoration: underline;
 }
 .carrusel img{
-    width: 20%;
+    width: 30%;
+    margin-left: 3%;
+}
+.carrusel {
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+#whatsapp {
+    position: fixed;
+    top: 90vh;
+    left: 95%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    transition: 0.5s;
+    border-color: #000;
+    border-width: 2px;
+    border-style: solid;
+}
+#whatsapp-icon {
+    color: #fff;
+    position: relative;
+    top: 9px;
+    left: 10px;
+    transition: 0.5s;
+}
+#whatsapp:hover {
+    background-color: #fff;
+}
+#whatsapp-icon:hover {
+        color: #000;
+}
+.flecha-izquierda {
+    background-color:#fff;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 1220px;
+    left: 250px;
+    border-style: solid;
+    border-width: 2px;
+}
+.fecha-iz {
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+.flecha-derecha {
+    background-color:#fff;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 1220px;
+    left: 1660px;
+    border-style: solid;
+    border-width: 2px;
+}
+.fecha-de {
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.transition-to-black {
+    transition: 0.5s;
+}
+.transition-to-black:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+.texto-en-imagen {
+    background-color:#fff;
+    height: 40px;
+    width: 350px;
+    position: relative;
+    top: -150px;
+    left: 300px;
+    border-style: solid;
+    border-width: 2px;
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+#ti-centro {
+    left: 800px;
+    top: -205px;
+}
+#ti-derecha {
+    left: 1300px;
+    top: -262px;
+}
+#ubicaciones {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    left: 3%;
+}
+#ubicaciones img {
+    width: 100%;
     
+}
+.titulo-en-imagen {
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    width: 35%;
+    color: #fff;
+    font-size: 3.1rem;
+    text-align: center;
+    z-index: 1;
+}
+#ubicaciones::before {
+    background-color: rgba(0,0,0,0.5);
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+}
+.ti-ubicaciones {
+    left:0;
+    margin: auto;
+    padding: 0.2%;
+    color: #000;
+    width: 25%;
+    top: -320px;
+    height: 30px;
+}
+.link_sobre_imagen {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#link-ubicaciones {
+    position: absolute;
+    top: 2150px;
+    left: 42%;
 }
