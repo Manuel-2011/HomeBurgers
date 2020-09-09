@@ -1,13 +1,11 @@
 body {
     font-family: 'Lexend Peta', sans-serif;
 }
-a {
-    text-decoration: none;
-    color: #181717;
-}
-nav ul li{
+.header__nav-link, .header__nav-link a{
     display: inline;
     margin-left: 1.2%;
+    text-decoration: none;
+    color: #181717;
 }
 header {
     background-color:#fff;
