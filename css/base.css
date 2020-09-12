@@ -47,7 +47,7 @@ nav {
     color: #fff;
 }
 #pedir-button {
-    width: 90px;
+    padding: 2%;
     display: inline;
 }
 .fondo_principal {
@@ -234,15 +234,15 @@ nav {
     margin: auto;
     margin-top: 100px;
 }
-#catering img {
+.catering {
+    width: 60%;
+    height: 550px;
+}
+.catering img {
     width: 100%;
     height: 100%;
 }
-#catering {
-    width: 65.5%;
-    height: 550px;
-}
-#catering::before {
+.catering::before {
     background-color: rgba(0,0,0,0.5);
     content: "";
     position: absolute;
@@ -264,28 +264,32 @@ nav {
     font-size: 0.8rem;
 }
 .ti-catering {
-    top: -80px;
+    position: relative;
+    top: -120px;
+    left: 100px;
     width: 200px;
 }
+.franquicias {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #no-franquicia {
-    top: 2720px;
-    left: 1100px;
     color: #000;
+    width: 300px;
+    text-align: center;
 }
 .resaltar-negro {
     background-color: #000;
     color: #fff;
 }
-#franquicias-subtitle {
-    top: 2700px;
-    left: 1100px;
+#franquicias-subtitle {  
     color: #000;
     font-size: 0.8rem;
 }
 .ti-franquicias {
-    position: absolute;
-    top: 2900px;
-    left: 1340px;
     width: 200px;
 }
 .footer{
